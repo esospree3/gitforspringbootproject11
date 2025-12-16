@@ -9,7 +9,7 @@ public class StudentController {
 
     @GetMapping("/welcome")
     public String getMessage() {
-        System.out.println("from getMessage() of StudentController");
+        System.out.println("from getMessage() of StudentController class");
         return "Welcome to git from spring boot";
     }
 }

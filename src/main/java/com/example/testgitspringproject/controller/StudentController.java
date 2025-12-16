@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudentController {
 
     @GetMapping("/welcome")
-    public String etMessage() {
-        return "Welcome to git from springboot";
+    public String getMessage() {
+        System.out.println("from getMessage() of StudentController");
+        return "Welcome to git from spring boot";
     }
 }
